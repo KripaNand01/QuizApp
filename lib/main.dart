@@ -140,8 +140,7 @@ class _QuizPageState extends State<QuizPage> {
                 color: Colors.green,
                 borderRadius: BorderRadius.circular(15),
               ),
-              child: FlatButton(
-                textColor: Colors.white,
+              child: TextButton(
                 child: Text(
                   'True',
                   style: TextStyle(
@@ -168,7 +167,7 @@ class _QuizPageState extends State<QuizPage> {
                 color: Colors.red,
                 borderRadius: BorderRadius.circular(15),
               ),
-              child: FlatButton(
+              child: TextButton(
                 child: Text(
                   'False',
                   style: TextStyle(
